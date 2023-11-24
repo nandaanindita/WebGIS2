@@ -68,9 +68,6 @@
                         <td>' + (feature.properties['Kampus'] !== null ? autolinker.link(feature.properties['Kampus'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2">' + (feature.properties['Foto'] !== null ? '<img src="images/' + String(feature.properties['Foto']).replace(/[\\\/:]/g, '_').trim() + '">' : '') + '</td>\
-                    </tr>\
-                    <tr>\
                         <th scope="row">Rating</th>\
                         <td>' + (feature.properties['Desc_QS WUR'] !== null ? autolinker.link(feature.properties['Desc_QS WUR'].toLocaleString()) : '') + '</td>\
                     </tr>\
